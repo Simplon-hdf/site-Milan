@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palette Graphique</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/v4-shims.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                brand: {
+                  orange: '#E46804',
+                  black: '#0A0908',
+                  white: '#F2F4F3',
+                  gray: '#668586',
+                }
+              },
+              fontFamily: {
+                heading: ['"Bebas Neue"', 'sans-serif'],
+                subheading: ['Poppins', 'sans-serif'],
+                body: ['Roboto', 'sans-serif'],
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+            <h1 class="font-heading text-5xl text-brand-orange">Heading – Bebas Neue</h1>
+            <h2 class="font-subheading text-2xl text-brand-black">Subheading – Poppins</h2>
+            <p class="font-body text-base text-brand-gray max-w-prose">
+              This is body text using Roboto. Your color palette and font stack is now live!
+            </p>
+          
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+              <div class="h-24 bg-brand-orange text-white flex items-center justify-center font-subheading">#E46804</div>
+              <div class="h-24 bg-brand-black text-white flex items-center justify-center font-subheading">#0A0908</div>
+              <div class="h-24 bg-brand-white border text-brand-black flex items-center justify-center font-subheading">#F2F4F3</div>
+              <div class="h-24 bg-brand-gray text-white flex items-center justify-center font-subheading">#668586</div>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
