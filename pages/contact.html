@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenez Rendez-Vous</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                brand: {
+                  orange: '#E46804',
+                  black: '#0A0908',
+                  white: '#F2F4F3',
+                  gray: '#668586',
+                }
+              },
+              fontFamily: {
+                heading: ['"Bebas Neue"', 'sans-serif'],
+                subheading: ['Poppins', 'sans-serif'],
+                body: ['Roboto', 'sans-serif'],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+    <header class="bg-brand-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+          <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo OnlyPDC" class="h-16 text-brand-white">
+          </a>
+          <nav class="space-x-4 text-brand-black font-medium">
+            <a href="#coach" class="hover:text-brand-black">Le Coach</a>
+            <a href="#offres" class="hover:text-brand-black">Nos offres</a>
+            <a href="#blog" class="hover:text-brand-black">Blog</a>
+            <a href="#rdv" class="hover:text-brand-black">Prendre RDV</a>
+            <a href="#contact" class="hover:text-brand-black">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+    <main>
+
+    </main>
+
+
+</body>
+</html>
