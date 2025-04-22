@@ -48,10 +48,24 @@
 
 <body>
     <header>
-        
+        <header class="bg-brand-black shadow-md">
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+              <a href="index.html">
+                <img src="../img/logo.png" alt="Logo" class="h-16">
+              </a>
+              <nav class="space-x-4 text-brand-white font-medium">
+                <a href="#coach" class="hover:text-[#E46804]">Le Coach</a>
+                <a href="#offres" class="hover:text-[#E46804]">Nos offres</a>
+                <a href="#blog" class="hover:text-[#E46804]">Blog</a>
+                <a href="#rdv" class="hover:text-[#E46804]">Prendre RDV</a>
+                <a href="#contact" class="hover:text-[#E46804]">Contact</a>
+              </nav>
+            </div>
+          </header>
     </header>
 
-    <main>
+    <main class="mx-auto px-10 py-10">
+        <div>
             <h1 class="font-heading text-5xl text-brand-orange">Heading – Bebas Neue</h1>
             <h2 class="font-subheading text-2xl text-brand-black">Subheading – Poppins</h2>
             <p class="font-body text-base text-brand-gray max-w-prose">
@@ -64,10 +78,41 @@
               <div class="h-24 bg-brand-white border text-brand-black flex items-center justify-center font-subheading">#F2F4F3</div>
               <div class="h-24 bg-brand-gray text-white flex items-center justify-center font-subheading">#668586</div>
             </div>
+        </div>
     </main>
 
-    <footer>
-        <p>&copy; 2023 Mon Site Web. Tous droits réservés.</p>
+    <footer class="bg-[#0A0908] text-white py-10 px-6">
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+      <a href="index.html">
+        <img src="../img/logo.png" alt="Logo" class="h-16.5 mb-4">
+      </a>
+      <div>
+
+        <h3 class="font-bold text-lg mb-2">Navigation</h3>
+        <ul class="space-y-1">
+          <li><a href="#coach">Le Coach</a></li>
+          <li><a href="#offres">Nos offres</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#rdv">Prendre RDV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Réseaux Sociaux</h3>
+        <ul class="space-y-1">
+          <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@onlypoidsducorp" target="_blank">tiktok</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Contact</h3>
+        <p>Email : <a href="mailto:onlypoidsducorps@gmail.com">onlypoidsducorps@gmail.com</a></p>
+
+      </div>
+    </div>
+        <div class="text-center mt-6 text-sm text-[#F2F4F3]">© 2025 Only Poids du Corps. Tous droits réservés.</div>
     </footer>
 </body>
 
