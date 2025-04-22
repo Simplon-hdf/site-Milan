@@ -1,137 +1,40 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calisthenie - Accueil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #F2F4F3;
+      color: #0A0908;
+    }
+  </style>
 </head>
-
-
-
-<body>
-  <script src="js/app.js"></script>
-
-  <header>
-    <nav>
-      <h1>Milan</h1>
-      <ul>
-        <li><a href="#coach">Le Coach</a></li>
-        <li><a href="#offres">Nos offres</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#rdv">Prendre RDV</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+<body class="font-sans">
+  <!-- Header -->
+  <header class="bg-[#F2F4F3] shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Logo" class="h-16">
+      </a>
+      <nav class="space-x-4 text-[#0A0908] font-medium">
+        <a href="#coach" class="hover:text-[#E46804]">Le Coach</a>
+        <a href="#offres" class="hover:text-[#E46804]">Nos offres</a>
+        <a href="#blog" class="hover:text-[#E46804]">Blog</a>
+        <a href="#rdv" class="hover:text-[#E46804]">Prendre RDV</a>
+        <a href="#contact" class="hover:text-[#E46804]">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- Section principale / présentation -->
-  <main>
-    <section aria-labelledby="intro">
-      <h2 id="intro">Transforme ton corps, développe ta force</h2>
-      <p>Entraîne-toi efficacement avec des méthodes éprouvées et un accompagnement personnalisé.</p>
-      <img src="images/call-to-action.jpg" alt="Athlète pratiquant la calisthénie">
-      <a href="#offres">Commencer maintenant</a>
-    </section>
-
-    <!-- Blocs informatifs / Services -->
-    <section aria-labelledby="services">
-      <h2 id="services">Nos Services</h2>
-      <div>
-        <article>
-          <img src="images/service1.jpg" alt="Coach assistant un client">
-          <h3>Coaching individuel</h3>
-          <p>Des séances adaptées à tes objectifs et ton niveau.</p>
-        </article>
-        <article>
- <img src="images/service2.jpg" alt="Programme d'entraînement sur tablette">
-          <h3>Programmes personnalisés</h3>
-          <p>Des plans d’entraînement détaillés à suivre chez toi ou en salle.</p>
-        </article>
-        <article>
-          <img src="images/service3.jpg" alt="Repas équilibré pour sportif">
-          <h3>Conseils nutrition</h3>
-          <p>Un accompagnement alimentaire pour booster tes performances.</p>
-        </article>
-        <article>
-          <img src="images/service4.jpg" alt="Coach en appel vidéo avec un client">
-          <h3>Suivi à distance</h3>
-          <p>Un coach dispo pour toi à tout moment via une app dédiée.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Bloc contact -->
-    <section aria-labelledby="contact">
-      <h2 id="contact">Prendre contact</h2>
-      <p>Besoin d’un coaching ou d’informations ? Je suis disponible pour répondre à tes questions.</p>
-      <a href="#contact">Contact</a>
-    </section>
-
-    <!-- Avis clients -->
-    <section aria-labelledby="avis">
-      <h2 id="avis">Témoignages</h2>
-      <div>
-        <article>
-          <p>“Coaching au top, j’ai progressé super vite.”</p>
-          <footer>- Lucas</footer>
-        </article>
-        <article>
-          <p>“Le coach m’a aidé à rester motivée et à garder le rythme.”</p>
-          <footer>- Julie</footer>
-        </article>
-        <article>
-          <p>“Un accompagnement clair et motivant, je recommande.”</p>
-          <footer>- Yanis</footer>
-        </article>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <section>
-      <h3>Navigation</h3>
-      <ul>
-        <li><a href="#coach">Le Coach</a></li>
-        <li><a href="#offres">Nos offres</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#rdv">Prendre RDV</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Réseaux Sociaux</h3>
-      <ul>
-        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-        <li><a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Contact</h3>
-      <p>Email : contact@coach-milan.fr</p>
-      <p>Téléphone : 06 12 34 56 78</p>
-    </section>
-
-    <p>&copy; 2025 Milan Coaching. Tous droits réservés.</p>
-  </footer>
-
-</body>
-
-</html>
+  <!-- Hero / Call to Action -->
+  <section class="bg-[#668586] text-white text-center py-16 px-4">
+    <div class="max-w-xl mx-auto">
+      <h1 class="text-2xl font-bold mb-4">Découvrez une nouvelle façon de vous entraîner</h1>
+      <p class="mb-6">Des entraînements efficaces, sans matériel, adaptés à tous les niveaux.</p>
+      <img src="/path/to/call-to-action.jpg" alt="Entraînement calisthenie" class="mx-auto mb-6 rounded-lg shadow-md">
+      <button class="bg-[#E46804] hover:bg-[#d45d03] text-white font-semibold py-2 px-6 rounded">Commencer maintenant</button>
+    </div>
+  </section>
