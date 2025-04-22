@@ -28,16 +28,26 @@
       </nav>
     </div>
   </header>
+<!-- Hero / Call to Action -->
+<section class="relative text-white text-center py-32 px-4">
+  <!-- Image de fond avec opacité -->
+  <div class="absolute inset-0">
+    <img src="./img/workout.jpg" alt="Entraînement calisthenie" class="w-full h-full object-cover opacity-40">
+  </div>
 
-  <!-- Hero / Call to Action -->
-  <section class="bg-[#668586] text-white text-center py-16 px-4">
-    <div class="max-w-xl mx-auto">
-      <h1 class="text-2xl font-bold mb-4">Découvrez une nouvelle façon de vous entraîner</h1>
-      <p class="mb-6">Des entraînements efficaces, sans matériel, adaptés à tous les niveaux.</p>
-      <img src="/path/to/call-to-action.jpg" alt="Entraînement calisthenie" class="mx-auto mb-6 rounded-lg shadow-md">
-      <button class="bg-[#E46804] hover:bg-[#d45d03] text-white font-semibold py-2 px-6 rounded">Commencer maintenant</button>
-    </div>
-  </section>
+  <!-- Contenu par-dessus l’image -->
+  <div class="relative max-w-xl mx-auto z-10">
+    <h1 class="text-3xl font-bold mb-4">Découvrez une nouvelle façon de vous entraîner</h1>
+    <p class="mb-6">Des entraînements efficaces, sans matériel, adaptés à tous les niveaux.</p>
+    <button class="bg-[#E46804] hover:bg-[#d45d03] text-white font-semibold py-2 px-6 rounded">
+      Commencer maintenant
+    </button>
+  </div>
+
+  <!-- Overlay pour lisibilité si besoin -->
+  <div class="absolute inset-0 bg-black opacity-20"></div>
+</section>
+
 
   <!-- Articles / Services -->
   <section id="offres" class="py-16 bg-[#F2F4F3]">
