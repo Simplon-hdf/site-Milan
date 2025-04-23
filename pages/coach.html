@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Coach</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                brand: {
+                  orange: '#E46804',
+                  black: '#0A0908',
+                  white: '#F2F4F3',
+                  gray: '#668586',
+                }
+              },
+              fontFamily: {
+                heading: ['"Bebas Neue"', 'sans-serif'],
+                subheading: ['Poppins', 'sans-serif'],
+                body: ['Roboto', 'sans-serif'],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+    <header class="bg-brand-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+          <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo OnlyPDC" class="h-16 text-brand-white">
+          </a>
+          <nav class="space-x-4 text-brand-black font-medium">
+            <a href="./coach.html" class="hover:text-brand-black">Le Coach</a>
+            <a href="./offres.html" class="hover:text-brand-black">Nos offres</a>
+            <a href="./blog.html" class="hover:text-brand-black">Blog</a>
+            <a href="./rdv.html" class="hover:text-brand-black">Prendre RDV</a>
+            <a href="./contact.html" class="hover:text-brand-black">Contact</a>
+          </nav>
+        </div>
+    </header>
+
+<main>
+  <div class="bg-brand-white py-10 px-4 text-center">
+    <h1 class="text-4xl font-heading text-brand-black">Votre Coach Sportif</h1>
+  </div>  
+
+    <section class="bg-brand-gray py-10 px-4 text-center">
+      <div class="w-32 h-32 rounded-full mx-auto bg-gray-400 flex items-center justify-center">
+        <svg viewBox="0 0 100 100" class="w-20 h-20 text-gray-600">
+          <line x1="0" y1="0" x2="100" y2="100" stroke="black" />
+          <line x1="0" y1="100" x2="100" y2="0" stroke="black" />
+        </svg>
+      </div>
+      <h2 class="font-heading text-3xl mt-4 text-brand-black">Milan</h2>
+      <p class="mt-2 max-w-lg mx-auto text-sm text-brand-white">
+        Je suis un passionné de fitness et de nutrition, et je suis là pour vous aider à atteindre vos objectifs de santé et de bien-être. Que vous souhaitiez perdre du poids, gagner en muscle ou simplement rester actif, je suis là pour vous guider à chaque étape du chemin.
+      </p>
+    </section>
+ 
+    <section class="py-16 px-4" aria-labelledby="timeline-title">
+      <h2 id="timeline-title" class="text-center text-2xl font-heading text-brand-black mb-16">Mon parcours</h2>
+    
+      <div class="relative max-w-5xl mx-auto">
+        <div class="absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2 w-1 bg-brand-black"></div>
+    
+        <div class="flex flex-col gap-16">
+    
+          <article class="relative flex flex-col md:flex-row md:items-center md:justify-start">
+            <div class="md:w-1/2 md:pr-8 text-right">
+              <div class="bg-gray-200 p-5 rounded-xl shadow-md max-w-md ml-auto">
+                <h3 class="text-lg font-subheading mb-2">2020</h3>
+                <p class="text-sm">
+                  J'ai commencé mon parcours sportif à l'âge de 15 ans en rejoignant un club local de fitness. Très vite, je me suis passionné pour le développement physique et la nutrition.
+                </p>
+              </div>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 bg-brand-gray w-6 h-6 rounded-full z-10"></div>
+            <div class="md:w-1/2"></div>
+          </article>
+    
+          <article class="relative flex flex-col md:flex-row md:items-center md:justify-end">
+            <div class="md:w-1/2"></div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 bg-brand-gray w-6 h-6 rounded-full z-10"></div>
+            <div class="md:w-1/2 md:pl-8 text-left">
+              <div class="bg-gray-200 p-5 rounded-xl shadow-md max-w-md mr-auto">
+                <h3 class="text-lg font-subheading mb-2">2024</h3>
+                <p class="text-sm">
+                  Recherche personnelle et formation continue. J'ai suivi des cours de nutrition et de coaching sportif pour approfondir mes connaissances.
+                </p>
+              </div>
+            </div>
+          </article>
+    
+          <article class="relative flex flex-col md:flex-row md:items-center md:justify-start">
+            <div class="md:w-1/2 md:pr-8 text-right">
+              <div class="bg-gray-200 p-5 rounded-xl shadow-md max-w-md ml-auto">
+                <h3 class="text-lg font-subheading mb-2">Aujourd'hui</h3>
+                <p class="text-sm">
+                  En 2025, j'ai créé Only Poids du Corps, une plateforme dédiée à l'accompagnement sportif et nutritionnel. Mon objectif est de partager ma passion et d'aider les autres à atteindre leurs objectifs de santé et de bien-être.
+                </p>
+              </div>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 bg-brand-gray w-6 h-6 rounded-full z-10"></div>
+            <div class="md:w-1/2"></div>
+          </article>
+    
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="bg-[#0A0908] text-white py-10 px-6">
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+          <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo" class="h-16.5 mb-4 text-brand-white">
+          </a>
+
+          <div>
+            <h3 class="font-bold text-lg mb-2">Navigation</h3>
+            <ul class="space-y-1">
+              <li><a href="./coach">Le Coach</a></li>
+              <li><a href="./offres.html">Nos offres</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./rdv.html">Prendre RDV</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-lg mb-2">Réseaux Sociaux</h3>
+            <ul class="space-y-1">
+              <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+              <li><a href="https://www.tiktok.com/@onlypoidsducorp" target="_blank">tiktok</a></li>
+              <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-lg mb-2">Contact</h3>
+            <p>Email : <a href="mailto:onlypoidsducorps@gmail.com">onlypoidsducorps@gmail.com</a></p>
+
+          </div>
+        </div>
+            <div class="text-center mt-6 text-sm text-[#F2F4F3]">© 2025 Only Poids du Corps. Tous droits réservés.</div>
+        </footer>
+</body>
+
+</html>
