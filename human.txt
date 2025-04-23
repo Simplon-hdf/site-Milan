@@ -1,0 +1,12 @@
+/* TEAM */
+Nicolas — Développeur web, intégration, responsive, design
+Hazel — Développeuse web, intégration, responsive, design
+Axel — Tech Lead, accompagnement technique, relecture, conseils
+
+/* SITE */
+Project: Only Poids du Corps
+Client: Milan (coach sportif en calisthénie)
+Made with ❤️ during our Simplon training
+
+/* THANKS */
+Merci à Milan pour sa confiance et à l’équipe pédagogique de Simplon pour leur accompagnement.

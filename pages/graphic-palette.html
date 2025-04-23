@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palette Graphique</title>
+
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/v4-shims.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                brand: {
+                  orange: '#E46804',
+                  black: '#0A0908',
+                  white: '#F2F4F3',
+                  gray: '#668586',
+                }
+              },
+              fontFamily: {
+                heading: ['"Bebas Neue"', 'sans-serif'],
+                subheading: ['Poppins', 'sans-serif'],
+                body: ['Roboto', 'sans-serif'],
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+
+<body>
+    <header>
+        <header class="bg-brand-black shadow-md">
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+              <a href="index.html">
+                <img src="../img/logo-onlypdc.svg" alt="Logo OnlyPDC" class="h-16 text-brand-white">
+              </a>
+              <nav class="space-x-4 text-brand-white font-medium">
+                <a href="coach.html" class="hover:text-[#E46804]">Le Coach</a>
+                <a href="offres.html" class="hover:text-[#E46804]">Nos offres</a>
+                <a href="blog.html" class="hover:text-[#E46804]">Blog</a>
+                <a href="rdv.html" class="hover:text-[#E46804]">Prendre RDV</a>
+                <a href="contact.html" class="hover:text-[#E46804]">Contact</a>
+              </nav>
+            </div>
+          </header>
+    </header>
+
+    <main class="px-10 py-10">
+        <div>
+            <h1 class="font-heading text-5xl text-brand-orange">Heading – Bebas Neue</h1>
+            <h2 class="font-subheading text-2xl text-brand-black">Subheading – Poppins</h2>
+            <p class="font-body text-base text-brand-gray max-w-prose">
+              This is body text using Roboto. Your color palette and font stack is now live!
+            </p>
+          
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+              <div class="h-24 bg-brand-orange text-white flex items-center justify-center font-subheading">#E46804</div>
+              <div class="h-24 bg-brand-black text-white flex items-center justify-center font-subheading">#0A0908</div>
+              <div class="h-24 bg-brand-white border text-brand-black flex items-center justify-center font-subheading">#F2F4F3</div>
+              <div class="h-24 bg-brand-gray text-white flex items-center justify-center font-subheading">#668586</div>
+            </div>
+        </div>
+
+        <section id="buttons" class="py-10">
+            <h2 class="font-heading text-3xl text-brand-orange mb-4">Buttons</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <button class="bg-brand-orange text-white font-subheading w-25 py-2 px-4 rounded hover:bg-[#E46804]">Primary Button</button>
+              <button class="bg-brand-gray text-white font-subheading py-2 px-4 rounded hover:bg-[#668586]">Secondary Button</button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              <button class="bg-brand-white text-brand-black font-subheading py-2 px-4 rounded border border-brand-black hover:bg-[#F2F4F3]">Tertiary Button</button>
+              <button class="bg-brand-black text-white font-subheading py-2 px-4 rounded hover:bg-[#0A0908]">Disabled Button</button>
+            </div>
+        </section>
+        
+        <section id="forms" class="py-10">
+            <h2 class="font-heading text-3xl text-brand-orange mb-4">Forms</h2>
+            <form>
+              <div class="mb-4">
+                <label for="name" class="block text-brand-black font-subheading mb-2">Nom</label>
+                <input type="text" id="name" class="border border-brand-gray p-2 rounded w-full" placeholder="Nom">
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-brand-black font-subheading mb-2">Email</label>
+                <input type="email" id="email" class="border border-brand-gray p-2 rounded w-full" placeholder="Email">
+              </div>
+              <button type="submit" class="bg-brand-orange text-white font-subheading py-2 px-4 rounded hover:bg-[#E46804]">Envoyer</button>
+            </form>
+        </section>
+
+        <section id="icons" class="py-5 bg-brand-black m-4">
+            <h2 class="font-heading text-3xl text-brand-orange mb-4" >Icons</h2>
+            <div class="flex space-x-4">
+              <i class="fab fa-instagram text-brand-white text-3xl"></i>
+              <i class="fab fa-tiktok text-brand-white text-3xl"></i>
+              <i class="fab fa-youtube text-brand-white text-3xl"></i>
+              <i class="fas fa-home text-brand-white text-3xl"></i>
+              <i class="fas fa-user text-brand-white text-3xl"></i>
+              <i class="fas fa-cog text-brand-white text-3xl"></i>
+                <i class="fab fa-instagram text-brand-orange text-3xl"></i>
+                <i class="fab fa-tiktok text-brand-orange text-3xl"></i>
+                <i class="fab fa-youtube text-brand-orange text-3xl"></i>
+                <i class="fas fa-home text-brand-orange text-3xl"></i>
+                <i class="fas fa-user text-brand-orange text-3xl"></i>
+                <i class="fas fa-cog text-brand-orange text-3xl"></i>
+                    <i class="fab fa-instagram text-brand-gray text-3xl"></i>
+                    <i class="fab fa-tiktok text-brand-gray text-3xl"></i>
+                    <i class="fab fa-youtube text-brand-gray text-3xl"></i>
+                    <i class="fas fa-home text-brand-gray text-3xl"></i>
+                    <i class="fas fa-user text-brand-gray text-3xl"></i>
+                    <i class="fas fa-cog text-brand-gray text-3xl"></i>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#0A0908] text-white py-10 px-6">
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+          <a href="index.html">
+            <img src="../img/logo.png" alt="Logo" class="h-16.5 mb-4 text-brand-white">
+          </a>
+
+          <div>
+            <h3 class="font-bold text-lg mb-2">Navigation</h3>
+            <ul class="space-y-1">
+              <li><a href="coach.html">Le Coach</a></li>
+              <li><a href="offres.html">Nos offres</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="rdv.html">Prendre RDV</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-lg mb-2">Réseaux Sociaux</h3>
+            <ul class="space-y-1">
+              <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+              <li><a href="https://www.tiktok.com/@onlypoidsducorp" target="_blank">tiktok</a></li>
+              <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-lg mb-2">Contact</h3>
+            <p>Email : <a href="mailto:onlypoidsducorps@gmail.com">onlypoidsducorps@gmail.com</a></p>
+
+          </div>
+        </div>
+            <div class="text-center mt-6 text-sm text-[#F2F4F3]">© 2025 Only Poids du Corps. Tous droits réservés.</div>
+        </footer>
+</body>
+
+</html>

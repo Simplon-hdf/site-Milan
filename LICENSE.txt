@@ -1,0 +1,9 @@
+MIT License
+
+Copyright (c) 2025 Hazel - Axel - Nicolas
+
+Par la présente, la permission est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers associés, de traiter le logiciel sans restriction, y compris les droits de l'utiliser, de le copier, de le modifier, de fusionner, de publier, de distribuer, de sous-licencier et/ou de vendre des copies du logiciel, et de permettre à d'autres personnes à qui le logiciel est fourni de le faire, sous réserve des conditions suivantes :
+
+L'avis de copyright ci-dessus et cet avis de permission doivent être inclus dans toutes les copies ou portions substantielles du logiciel.
+
+LE LOGICIEL EST FOURNI "EN L'ÉTAT", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER À LA GARANTIE DE COMMERCIALISATION, D'ADÉQUATION À UN BUT PARTICULIER ET DE NON-VIOLATION. EN AUCUN CAS LES AUTEURS OU DÉTENTURS DU COPYRIGHT NE SERONT TENUS RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGE OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS UNE ACTION EN RESPONSABILITÉ CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DE, OU EN RELATION AVEC, LE LOGICIEL OU L'UTILISATION OU D'AUTRES TRANSACTIONS DANS LE LOGICIEL.

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Page Inconnue</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="404 Page Not Found">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              orange: '#E46804',
+              black: '#0A0908',
+              white: '#F2F4F3',
+              gray: '#668586',
+            }
+          },
+          fontFamily: {
+            heading: ['"Bebas Neue"', 'sans-serif'],
+            subheading: ['Poppins', 'sans-serif'],
+            body: ['Roboto', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body class="bg-brand-white">
+  <header class="bg-brand-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="../index.html">
+        <img src="../img/logo-onlypdc.svg" alt="Logo OnlyPDC" class="h-16 text-brand-white">
+      </a>
+      <nav class="space-x-4 text-brand-black font-medium">
+        <a href="coach.html" class="hover:text-[#E46804]">Le Coach</a>
+        <a href="offres.html" class="hover:text-[#E46804]">Nos offres</a>
+        <a href="blog.html" class="hover:text-[#E46804]">Blog</a>
+        <a href="rdv.html" class="hover:text-[#E46804]">Prendre RDV</a>
+        <a href="contact.html" class="hover:text-[#E46804]">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8">
+    <div class="text-center">
+      <p class="text-5xl font-heading text-brand-orange">404</p>
+      <h1 class="mt-4 text-5xl font-semibold tracking-tight text-balance text-brand-black sm:text-7xl">Page inconnue</h1>
+      <p class="mt-6 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">La page que vous recherchez n'existe pas</p>
+      <div class="mt-10 flex items-center justify-center gap-x-6">
+        <a href="../index.html" class="rounded-md bg-brand-orange px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-brand-orange focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Retourner à l'accueil</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-[#0A0908] text-white py-10 px-6">
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+      <a href="../index.html">
+        <img src="../img/logo.png" alt="Logo" class="h-16.5 mb-4 text-brand-white">
+      </a>
+
+      <div>
+        <h3 class="font-bold text-lg mb-2">Navigation</h3>
+        <ul class="space-y-1">
+          <li><a href="coach.html">Le Coach</a></li>
+          <li><a href="offres.html">Nos offres</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="rdv.html">Prendre RDV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-2">Réseaux Sociaux</h3>
+        <ul class="space-y-1">
+          <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@onlypoidsducorp" target="_blank">tiktok</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-2">Contact</h3>
+        <p>Email : <a href="mailto:onlypoidsducorps@gmail.com">onlypoidsducorps@gmail.com</a></p>
+
+      </div>
+    </div>
+        <div class="text-center mt-6 text-sm text-[#F2F4F3]">© 2025 Only Poids du Corps. Tous droits réservés.</div>
+    </footer>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->
