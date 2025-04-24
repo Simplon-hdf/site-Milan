@@ -11,15 +11,13 @@
       color: #0A0908;
     }
   </style>
-
-  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body class="font-sans">
   <!-- Header -->
   <header class="bg-[#F2F4F3] shadow-md">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
       <a href="index.html">
-        <img src="img/logo-onlypdc.svg" alt="Logo" class="h-16">
+        <img src="img/logo.png" alt="Logo" class="h-16">
       </a>
       <nav class="space-x-4 text-[#0A0908] font-medium">
         <a href="./pages/coach.html" class="hover:text-[#E46804]">Le Coach</a>
@@ -30,25 +28,29 @@
       </nav>
     </div>
   </header>
-<!-- Hero / Call to Action -->
-<section class="relative text-white text-center py-32 px-4">
+
+  <!-- Hero / Call to Action -->
+<section class="relative text-white px-4 h-auto lg:h-[700px] flex items-center justify-center text-center">
   <!-- Image de fond avec opacité -->
   <div class="absolute inset-0">
     <img src="./img/workout.jpg" alt="Entraînement calisthenie" class="w-full h-full object-cover opacity-40">
   </div>
 
-  <!-- Contenu par-dessus l’image -->
-  <div class="relative max-w-xl mx-auto z-10">
-    <h1 class="text-3xl font-bold mb-4">Découvrez une nouvelle façon de vous entraîner</h1>
-    <p class="mb-6">Des entraînements efficaces, sans matériel, adaptés à tous les niveaux.</p>
-    <button class="bg-[#E46804] hover:bg-[#d45d03] text-white font-semibold py-2 px-6 rounded">
-      Commencer maintenant
-    </button>
+  <!-- Contenu centré -->
+  <div class="relative max-w-3xl mx-auto z-10">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Découvrez une nouvelle façon de vous entraîner</h1>
+    <p class="mb-6 text-lg md:text-xl">Des entraînements efficaces, sans matériel, adaptés à tous les niveaux.</p>
+    <a href="./pages/offres.html">
+      <button class="bg-[#E46804] hover:bg-[#d45d03] text-white font-semibold py-3 px-8 rounded">
+        Commencer maintenant
+      </button>
+    </a>
   </div>
 
-  <!-- Overlay pour lisibilité si besoin -->
+  <!-- Overlay pour lisibilité -->
   <div class="absolute inset-0 bg-black opacity-20"></div>
 </section>
+
 
 
   <!-- Articles / Services -->
@@ -101,17 +103,17 @@
   
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
       <a href="index.html">
-        <img src="img/logo-onlypdc-white.svg" alt="Logo" class="h-16.5 mb-4">
+        <img src="img/logo.png" alt="Logo" class="h-16.5 mb-4">
       </a>
       <div>
         
         <h3 class="font-bold text-lg mb-2">Navigation</h3>
         <ul class="space-y-1">
-          <li><a href="./pages/coach.html">Le Coach</a></li>
+          <li><a href="#coach">Le Coach</a></li>
           <li><a href="./pages/offres.html">Nos offres</a></li>
-          <li><a href="./pages/blog.html">Blog</a></li>
-          <li><a href="./pages/rdv.html">Prendre RDV</a></li>
-          <li><a href="./pages/contact.html">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#rdv">Prendre RDV</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div>
