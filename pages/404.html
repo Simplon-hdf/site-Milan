@@ -43,19 +43,49 @@
 </head>
 
 <body class="bg-brand-white">
-  <header class="bg-brand-white shadow-md">
+  <header class="bg-[#F2F4F3] shadow-md">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
       <a href="../index.html">
-        <img src="../img/logo-onlypdc.svg" alt="Logo OnlyPDC" class="h-16 text-brand-white">
+        <img src="../img/logo-onlypdc.svg" alt="Logo" class="h-16">
       </a>
-      <nav class="space-x-4 text-brand-black font-medium">
-        <a href="coach.html" class="hover:text-[#E46804]">Le Coach</a>
-        <a href="offres.html" class="hover:text-[#E46804]">Nos offres</a>
-        <a href="blog.html" class="hover:text-[#E46804]">Blog</a>
-        <a href="rdv.html" class="hover:text-[#E46804]">Prendre RDV</a>
-        <a href="contact.html" class="hover:text-[#E46804]">Contact</a>
+  
+      <!-- Burger Button -->
+      <button id="burger" class="md:hidden text-3xl">&#9776;</button>
+  
+      <!-- Desktop nav -->
+      <nav id="menu" class="hidden md:flex flex-row space-x-4 text-[#0A0908] font-medium">
+        <a href="./coach.html" class="hover:text-[#E46804]">Le Coach</a>
+        <a href="./offres.html" class="hover:text-[#E46804]">Nos offres</a>
+        <a href="./blog.html" class="hover:text-[#E46804]">Blog</a>
+        <a href="./rdv.html" class="hover:text-[#E46804]">Prendre RDV</a>
+        <a href="./contact.html" class="hover:text-[#E46804]">Contact</a>
       </nav>
     </div>
+  
+    <!-- Mobile nav -->
+    <nav id="mobile-menu" class="hidden flex-col px-6 pb-4 text-[#0A0908] font-medium md:hidden transition-all duration-300 ease-in-out bg-white shadow-inner border-t border-gray-200">
+      <a href="./coach.html" class="py-2 border-b border-gray-200 hover:text-[#E46804]">Le Coach</a>
+      <a href="./offres.html" class="py-2 border-b border-gray-200 hover:text-[#E46804]">Nos offres</a>
+      <a href="./blog.html" class="py-2 border-b border-gray-200 hover:text-[#E46804]">Blog</a>
+      <a href="./rdv.html" class="py-2 border-b border-gray-200 hover:text-[#E46804]">Prendre RDV</a>
+      <a href="./contact.html" class="py-2 hover:text-[#E46804]">Contact</a>
+    </nav>
+  
+    <!-- Script -->
+    <script>
+      const burger = document.getElementById('burger');
+      const mobileMenu = document.getElementById('mobile-menu');
+  
+      burger.addEventListener('click', () => {
+        if (mobileMenu.classList.contains('hidden')) {
+          mobileMenu.classList.remove('hidden');
+          mobileMenu.classList.add('flex');
+        } else {
+          mobileMenu.classList.remove('flex');
+          mobileMenu.classList.add('hidden');
+        }
+      });
+    </script>
   </header>
 
   <main class="grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8">
